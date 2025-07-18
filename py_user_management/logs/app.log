@@ -1,0 +1,18 @@
+2025-05-08 16:40:26,035 [INFO] [_internal.py:187 _log()] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-08 16:40:26,036 [INFO] [_internal.py:187 _log()] [33mPress CTRL+C to quit[0m
+2025-05-08 16:40:26,040 [INFO] [_internal.py:187 _log()]  * Restarting with stat
+2025-05-08 16:40:26,473 [WARNING] [_internal.py:187 _log()]  * Debugger is active!
+2025-05-08 16:40:26,478 [INFO] [_internal.py:187 _log()]  * Debugger PIN: 504-895-414
+2025-05-08 16:45:08,167 [INFO] [_internal.py:187 _log()] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-08 16:45:08,171 [INFO] [_internal.py:187 _log()] [33mPress CTRL+C to quit[0m
+2025-05-08 16:45:08,177 [INFO] [_internal.py:187 _log()]  * Restarting with stat
+2025-05-08 16:45:08,632 [WARNING] [_internal.py:187 _log()]  * Debugger is active!
+2025-05-08 16:45:08,638 [INFO] [_internal.py:187 _log()]  * Debugger PIN: 504-895-414
+2025-05-08 16:45:33,068 [INFO] [_internal.py:187 _log()] 127.0.0.1 - - [08/May/2025 16:45:33] "[33mGET / HTTP/1.1[0m" 404 -
+2025-05-08 16:45:43,110 [INFO] [_internal.py:187 _log()] 127.0.0.1 - - [08/May/2025 16:45:43] "POST /register HTTP/1.1" 200 -
+2025-05-08 16:45:52,637 [INFO] [_internal.py:187 _log()] 127.0.0.1 - - [08/May/2025 16:45:52] "POST /register HTTP/1.1" 200 -
+2025-05-08 16:45:58,452 [INFO] [_internal.py:187 _log()] 127.0.0.1 - - [08/May/2025 16:45:58] "[33mGET /users HTTP/1.1[0m" 404 -
+2025-05-08 16:46:03,915 [INFO] [_internal.py:187 _log()] 127.0.0.1 - - [08/May/2025 16:46:03] "[33mGET /user/JoeBiden@gmail.com/ HTTP/1.1[0m" 404 -
+2025-05-08 16:46:11,347 [INFO] [_internal.py:187 _log()] 127.0.0.1 - - [08/May/2025 16:46:11] "[33mPOST /user/change_password HTTP/1.1[0m" 404 -

@@ -1,0 +1,20 @@
+[
+    {
+        "emp_id": "ID1",
+        "first_name": "Nandini",
+        "last_name": "Kamepalli",
+        "doj": "02/04/2025",
+        "salary": "50000",
+        "department": "IT",
+        "role": "Software Developer"
+    },
+    {
+        "emp_id": "ID2",
+        "first_name": "Mounika",
+        "last_name": "Kamepalli",
+        "doj": "02/04/2025",
+        "salary": "650000",
+        "department": "IT",
+        "role": "Software Associate"
+    }
+]

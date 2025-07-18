@@ -1,0 +1,14 @@
+[
+    {
+        "role_id": "101",
+        "role_name": "Software Developer"
+    },
+    {
+        "role_id": "102",
+        "role_name": "Software Associate"
+    },
+    {
+        "role_id": "3",
+        "role_name": "Agentic Ai developer"
+    }
+]

@@ -1,0 +1,65 @@
+[
+    {
+        "user_id": 1001,
+        "first_name": "Nandini",
+        "last_name": "Sharma",
+        "username": "Nandini.sharma89",
+        "password": "Nandini@123",
+        "age": 35,
+        "dob": "1990-04-22"
+    },
+    {
+        "user_id": 1002,
+        "first_name": "Priya",
+        "last_name": "Verma",
+        "username": "priya.verma92",
+        "password": "Pr!ya2025",
+        "age": 33,
+        "dob": "1992-07-10"
+    },
+    {
+        "user_id": 1003,
+        "first_name": "Amit",
+        "last_name": "Patel",
+        "username": "amit_patel88",
+        "password": "Amit@123",
+        "age": 36,
+        "dob": "1989-01-25"
+    },
+    {
+        "user_id": 1004,
+        "first_name": "Sneha",
+        "last_name": "Iyer",
+        "username": "sneha.iyer01",
+        "password": "Sn3ha#2024",
+        "age": 30,
+        "dob": "1994-03-14"
+    },
+    {
+        "user_id": 1005,
+        "first_name": "Rohit",
+        "last_name": "Singh",
+        "username": "rohit.singh",
+        "password": "Rohit$789",
+        "age": 28,
+        "dob": "1996-09-08"
+    },
+    {
+        "user_id": 1006,
+        "first_name": "Anjali",
+        "last_name": "Mehta",
+        "username": "anjali_mehta",
+        "password": "Anj@2023",
+        "age": 26,
+        "dob": "1999-11-20"
+    },
+    {
+        "user_id": 1007,
+        "first_name": "Rahul",
+        "last_name": "Sharma",
+        "username": "rahul.sharma89",
+        "password": "RaHuL@123",
+        "age": 35,
+        "dob": "1990-04-22"
+    }
+]

@@ -1,0 +1,10 @@
+2025-05-14 18:09:03,430 [ERROR] Exception in login: 415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'.
+2025-05-14 18:09:03,431 [INFO] 127.0.0.1 - - [14/May/2025 18:09:03] "[35m[1mPOST /user/login HTTP/1.1[0m" 500 -
+2025-05-14 18:09:31,048 [INFO] Login attempt: {'username': 'rahul.sharma89', 'password': 'RaHuL@123'}
+2025-05-14 18:09:31,063 [INFO] Loading data from JSON file
+2025-05-14 18:09:31,063 [INFO] 127.0.0.1 - - [14/May/2025 18:09:31] "[31m[1mPOST /user/login HTTP/1.1[0m" 401 -
+2025-05-14 18:09:54,086 [INFO] Data received from user: {'user_id': 1001, 'first_name': 'Rahul', 'last_name': 'Sharma', 'username': 'rahul.sharma89', 'password': 'RaHuL@123', 'age': 35, 'dob': '1990-04-22'}
+2025-05-14 18:09:54,086 [INFO] Loading data from JSON file
+2025-05-14 18:09:54,087 [INFO] 127.0.0.1 - - [14/May/2025 18:09:54] "POST /user/register HTTP/1.1" 200 -
+2025-05-14 18:11:29,189 [INFO] Loading data from JSON file
+2025-05-14 18:11:29,191 [INFO] 127.0.0.1 - - [14/May/2025 18:11:29] "GET /user/verify-age HTTP/1.1" 200 -
