@@ -85,7 +85,6 @@ print("First 5 values:", embedding[:5])
 Ada Embedding length: 1536
 First 5 values: [-0.011, 0.027, -0.017, 0.036, -0.002]
 ```
-
 ### Can We Use Other Models?
 | Model                   | How to Use                                | Library / API                  |
 | ----------------------- | ----------------------------------------- | ------------------------------ |

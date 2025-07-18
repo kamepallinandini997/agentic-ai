@@ -7,7 +7,6 @@
 * How to **store metadata** in MongoDB and **vector embeddings** in FAISS
 * How to link them together using unique IDs
 
-
 ## Why Use MongoDB with FAISS?
 
 FAISS is excellent at storing **vectors** and searching through them quickly.  

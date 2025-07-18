@@ -6,7 +6,6 @@ But the machine not able to understand human language like we do. So here is the
 
 ### Tokens:
 Lets take previous example : "Tell me how to bake a cake "
-
 From above example each word is a token.
 
 - words : ["Tell","me","how","to","bake","a","Cake"]

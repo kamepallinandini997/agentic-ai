@@ -74,7 +74,6 @@ index = faiss.IndexIVFFlat(quantizer, dimension, nlist=100)
 index.train(embeddings)
 index.add(embeddings)
 ```
-
 ### 4. IndexPQ (Product Quantization)
 
 * Compresses vectors for memory efficiency

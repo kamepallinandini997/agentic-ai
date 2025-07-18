@@ -14,7 +14,6 @@ Here’s a list of what we’ll use in this article — we don’t need to be an
  NumPy                   To work with vectors and matrices (just number lists)          
  Requests                To call APIs like the News API                                  
 ```
-
 ### Software Requirements
 
 Make sure you have these installed on your system:

@@ -33,7 +33,6 @@ Each number in this vector tells the model something about the **context or mean
 ### Example: Get Embeddings using GPT-2
 
 GPT-2 does not give embeddings directly. It outputs something called "last hidden states" — these are embeddings for each token in the input.
-
 ### Example : Getting Embeddings from GPT-2
 
 ```python

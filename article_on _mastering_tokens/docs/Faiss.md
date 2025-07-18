@@ -1,6 +1,5 @@
 # Importance of FAISS – Storing and Searching Vectors
 ---
-
 ### What You're Going to Learn
 
 In this section, you'll learn:
