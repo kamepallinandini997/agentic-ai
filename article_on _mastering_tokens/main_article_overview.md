@@ -9,16 +9,16 @@ In this article, we are  going to learn how robots actually understand and respo
   - Tools like FAISS and MongoDB
 
 - ## Table of Contents:
-	- [Introduction](https://github.com/kamepallinandini997/agentic-ai/blob/main/article_on%20_mastering_tokens/docs/Introduction%20.md)
-	- [Pre-requisites](https://github.com/kamepallinandini997/agentic-ai/blob/main/article_on%20_mastering_tokens/docs/Pre-requisites.md) 
-	- [What are Tokens and Tokenization](https://github.com/kamepallinandini997/agentic-ai/blob/main/article_on%20_mastering_tokens/docs/Tokens.md)
-	- [Understanding importance of Embeddings and vectors](http://github.com/kamepallinandini997/agentic-ai/blob/main/article_on%20_mastering_tokens/docs/Embeddings.md)
-	- [Practice on Embeddings and vectors](https://github.com/kamepallinandini997/agentic-ai/blob/main/article_on%20_mastering_tokens/docs/Practice%20on%20Embeddings.md)
-	- [Importance of Faiss, storing and searching vectors  in Faiss](https://github.com/kamepallinandini997/agentic-ai/blob/main/article_on%20_mastering_tokens/docs/Faiss.md)
-	- [Deep Dive into FAISS](http://github.com/kamepallinandini997/agentic-ai/blob/main/article_on%20_mastering_tokens/docs/Deep%20dive%20into%20Faiss.md)
-	- [Understanding and Integrating FAISS and MongoDB](https://github.com/kamepallinandini997/agentic-ai/blob/main/article_on%20_mastering_tokens/docs/Integrating%20MongoDB.md)
+	- [Introduction](./docs/Introduction.md)
+	- [Pre-requisites](./docs/Pre-requisites.md) 
+	- [What are Tokens and Tokenization](./docs/Tokens.md)
+	- [Understanding importance of Embeddings and vectors](./docs/Embeddings.md)
+	- [Practice on Embeddings and vectors](./docs/Practice_on_Embeddings.md)
+	- [Importance of Faiss, storing and searching vectors  in Faiss](/docs/Faiss.md)
+	- [Deep Dive into FAISS](./docs/Deep_dive_into_Faiss.md)
+	- [Understanding and Integrating FAISS and MongoDB](./docs/Integrating_MongoDB.md)
 	- [Practical Example: News Api ](#practical-example)
-	- [Conclusion](#conclusion-bringing-it-all-together)
+	- [Conclusion](./docs/Conclusion.md)
 
 ---
 # Introduction
@@ -190,8 +190,8 @@ This CLI step comes after:
 
 Here are the CLI script files created for this purpose:
 
-- [`Generating_headline_using_GPT2`](https://github.com/kamepallinandini997/agentic-ai/blob/main/article_on%20_mastering_tokens/news_api_cli/gpt2_cli.py)
-- [`Generating_headline_using_GPT4`](https://github.com/kamepallinandini997/agentic-ai/blob/main/article_on%20_mastering_tokens/news_api_cli/gpt4_cli.py)
+- [`Generating_headline_using_GPT2`](./news_api_cli/gpt2_cli.py)
+- [`Generating_headline_using_GPT4`](./news_api_cli/gpt4_cli.py)
 
 ### Now that you’ve:
 - Extracted text and created embeddings
@@ -216,12 +216,8 @@ Here are the CLI script files created for this purpose:
 
 Over the course of this article, we embarked on a complete journey — starting from the smallest building block of language understanding to a full-stack application capable of ranking and retrieving semantically rich information. While at first glance the topic might have seemed like just another AI tutorial, what we actually built together was a foundational framework: a method of thinking about data, language, and intelligence through the lens of vectorized meaning.
 
+Every concept you've explored has brought you closer to mastering intelligent systems. [Dive into the full conclusion](./docs/Conclusion.md) to see the depth of understanding you've built.
 
-All of these tools — tokenization, embeddings, FAISS, MongoDB — were then brought together in a working example: a CLI-based headline generator powered by GPT-2 and GPT-4. This wasn’t just a toy project. It represented a real-life use case: turning raw news articles into intelligent summaries, scoring them based on semantic alignment, and outputting ranked lists.
-
-You now have the blueprint. You’ve gone from theory to real tools. From understanding the fundamentals to deploying a basic semantic search system. You’ve learned how to represent language as math, how to store it, search it, and explain it. Most importantly, you’ve learned how to put all these together in a practical, extensible application.
-
-The tools will evolve. New models will emerge. But the mental model you’ve built — of turning language into vectors, vectors into meaning, and meaning into action — will remain powerful for years to come.
 
 So what’s next?
 
