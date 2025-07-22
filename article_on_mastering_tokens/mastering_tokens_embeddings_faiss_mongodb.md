@@ -47,7 +47,7 @@ By the end of this article, you won’t just know what these terms mean — you�
 Let’s begin with the first and most fundamental piece: tokens and how they're used in language models.
 
 Want to see how all of this fits together with real-world examples and use cases?  
-Step inside: [Introduction to Master class](https://github.com/kamepallinandini997/agentic-ai/blob/main/article_on%20_mastering_tokens/docs/Introduction%20.md)
+Step inside: [Introduction to Master class](./docs/Introduction.md)
 
 # Pre-requisites
 
@@ -59,7 +59,7 @@ A language, a few libraries, an API key or two.
 If these sound familiar, you're ready.  
 If not, you'll still follow along just fine.
 
-→ Read full section here: [Pre requisites](https://github.com/kamepallinandini997/agentic-ai/blob/main/article_on%20_mastering_tokens/docs/Pre-requisites.md)
+→ Read full section here: [Pre requisites](./docs/Pre-requisites.md)
 # What are Tokens and Tokenization
 
 Words aren’t what machines see.  
@@ -71,7 +71,7 @@ To `['Tell', ' me', ' how', ' to', ' bake', ' a', ' cake']`
 Why do we do this?  
 Because numbers speak louder than letters — to a language model.
 
-→ Walk through the full breakdown here:  [Tokens](https://github.com/kamepallinandini997/agentic-ai/blob/main/article_on%20_mastering_tokens/docs/Tokens.md)
+→ Walk through the full breakdown here:  [Tokens](./docs/Tokens.md)
 
 # Understanding the Importance of Embeddings and Vectors
 
@@ -84,7 +84,7 @@ To `[0.21, -0.67, ..., 0.13]`
 
 With embeddings, models know that “pizza” is food, and “queen” is close to “king - man + woman.”
 
-→ Deep dive and code walkthrough here: [Embeddings](https://github.com/kamepallinandini997/agentic-ai/blob/main/article_on%20_mastering_tokens/docs/Embeddings.md)
+→ Deep dive and code walkthrough here: [Embeddings](./docs/Embeddings.md)
 
 # Practice on Embeddings and Vectors
 
@@ -96,7 +96,7 @@ From hidden states to high-dimensional vectors, you'll learn:
 - How to compare them
 - And how to prepare them for search, scoring, and more.
 
-→ Practice all examples here: [Practice on Embeddings](https://github.com/kamepallinandini997/agentic-ai/blob/main/article_on%20_mastering_tokens/docs/Practice%20on%20Embeddings.md)
+→ Practice all examples here: [Practice on Embeddings](./docs/Practice_on_Embeddings.md)
 # Importance of FAISS – Storing and Searching Vectors
 
 Turning text into embeddings is powerful — but only if you can **search** them fast.
@@ -108,7 +108,7 @@ In this section, you’ll see how to:
 - Add embeddings
 - Perform similarity search using a real OpenAI model
 
-→ Full walkthrough and code examples here: [FAISS Vector Search](https://github.com/kamepallinandini997/agentic-ai/blob/main/article_on%20_mastering_tokens/docs/Faiss.md)
+→ Full walkthrough and code examples here: [FAISS Vector Search](/docs/Faiss.md)
 # Deep Dive into FAISS
 
 Basic vector search is just the beginning.  
@@ -128,7 +128,7 @@ From `IndexFlatL2` to `IndexIVFFlat` and `IndexPQ`,
 you'll learn how to **choose**, **build**, and **manage** different index types.  
 Also, learn to **normalize for cosine similarity**, **remove vectors**, and **store indexes like a database**.
 
-→ Complete guide with examples and use cases: [Deep Dive into FAISS](https://github.com/kamepallinandini997/agentic-ai/blob/main/article_on%20_mastering_tokens/docs/Deep%20dive%20into%20Faiss.md)
+→ Complete guide with examples and use cases: [Deep Dive into FAISS](./docs/Deep_dive_into_faiss.md)
 # Understanding and Integrating FAISS and MongoDB
 
 FAISS stores vectors — but not the context.  
@@ -143,7 +143,7 @@ You’ll learn how to:
 - Store metadata in MongoDB
 - Link both using unique IDs
 
-→ Full walkthrough and code here: [Integrating MongoDB](https://github.com/kamepallinandini997/agentic-ai/blob/main/article_on%20_mastering_tokens/docs/Integrating%20MongoDB.md)
+→ Full walkthrough and code here: [Integrating MongoDB](./docs/Integrating_MongoDB.md)
 
 # Practical Example 
 Generating Headlines with GPT-2 and GPT-4
