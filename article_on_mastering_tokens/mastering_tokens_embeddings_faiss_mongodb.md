@@ -108,7 +108,7 @@ In this section, you’ll see how to:
 - Add embeddings
 - Perform similarity search using a real OpenAI model
 
-→ Full walkthrough and code examples here: [FAISS Vector Search](/docs/Faiss.md)
+→ Full walkthrough and code examples here: [FAISS Vector Search](./docs/Faiss.md)
 # Deep Dive into FAISS
 
 Basic vector search is just the beginning.  

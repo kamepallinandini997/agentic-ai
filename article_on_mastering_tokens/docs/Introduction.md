@@ -33,6 +33,17 @@ Each word is turned into a vector (a list of numbers), and similar words have si
 
 So “bake” and “cook” will be close together in vector space.
 
+```plaintext
++-------------+     +------------+     +-------------+     +-----------+     +-----------+
+| Raw Article | --> | Tokenizer  | --> | Embeddings  | --> | FAISS DB  | --> | MongoDB   |
++-------------+     +------------+     +-------------+     +-----------+     +-----------+
+                                                                      |
+                                                                      v
+                                                          +--------------------+
+                                                          | GPT Headline Gen   |
+                                                          +--------------------+
+
+```
 ### Vector Search:
 Now imagine the robot has thousands of answers stored as vectors.When you ask a question like “how to bake a cake”, the robot:
 - Converts your question into a vector using embeddings.
