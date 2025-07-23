@@ -14,7 +14,7 @@ In this article, we are  going to learn how robots actually understand and respo
 	- [What are Tokens and Tokenization](./docs/Tokens.md)
 	- [Understanding importance of Embeddings and vectors](./docs/Embeddings.md)
 	- [Practice on Embeddings and vectors](./docs/Practice_on_Embeddings.md)
-	- [Importance of Faiss, storing and searching vectors  in Faiss](/docs/Faiss.md)
+	- [Importance of Faiss, storing and searching vectors  in Faiss](./docs/Faiss.md)
 	- [Deep Dive into FAISS](./docs/Deep_dive_into_faiss.md)
 	- [Understanding and Integrating FAISS and MongoDB](./docs/Integrating_MongoDB.md)
 	- [Practical Example: News Api ](#practical-example)
