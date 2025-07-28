@@ -1,7 +1,10 @@
-2025-07-25 18:20:54,503 - INFO - exceptions.py - Duplicate user found: {'_id': ObjectId('68837b17a53b2676e9dcd5bd'), 'first_name': 'Nandini', 'last_name': 'Kamepalli', 'email': 'nandy10001@gmail.com', 'phone': '99556633', 'password': 'Nandy@0090', 'date_of_birth': datetime.datetime(2000, 11, 1, 0, 0), 'date_of_joining': datetime.datetime(2023, 12, 1, 0, 0), 'address': '123, Jubilee Hills, Hyderabad', 'comment': 'third registration attempt', 'status': 'True'}
-2025-07-25 18:21:05,806 - INFO - exceptions.py - Duplicate user found: {'_id': ObjectId('68837b17a53b2676e9dcd5bd'), 'first_name': 'Nandini', 'last_name': 'Kamepalli', 'email': 'nandy10001@gmail.com', 'phone': '99556633', 'password': 'Nandy@0090', 'date_of_birth': datetime.datetime(2000, 11, 1, 0, 0), 'date_of_joining': datetime.datetime(2023, 12, 1, 0, 0), 'address': '123, Jubilee Hills, Hyderabad', 'comment': 'third registration attempt', 'status': 'True'}
-2025-07-25 18:21:12,074 - INFO - user_service.py - Received date of birth and date and joining details proceeding with validation
-2025-07-25 18:22:38,219 - INFO - user_service.py - Received date of birth and date and joining details proceeding with validation
-2025-07-25 18:22:47,218 - INFO - exceptions.py - Duplicate user found: {'_id': ObjectId('68837e1673081c59e47e3774'), 'first_name': 'Nandini', 'last_name': 'Kamepalli', 'email': 'mandy10001@gmail.com', 'phone': '9951256633', 'password': 'Nandy@0090', 'date_of_birth': datetime.datetime(2000, 11, 1, 0, 0), 'date_of_joining': datetime.datetime(2000, 11, 1, 0, 0), 'address': '123, Jubilee Hills, Hyderabad', 'comment': 'third registration attempt', 'status': 'True'}
-2025-07-25 18:23:29,608 - INFO - user_service.py - Received date of birth and date and joining details proceeding with validation
-2025-07-25 18:23:53,692 - INFO - user_service.py - Received date of birth and date and joining details proceeding with validation
+2025-07-27 10:55:32,603 - INFO - exceptions.py - Duplicate user found with andy10001@gmail.com  or 9956633
+2025-07-27 10:56:32,572 - INFO - user_service.py - Received date of birth and date and joining details proceeding with validation
+2025-07-27 10:56:54,316 - INFO - user_service.py - Received date of birth and date and joining details proceeding with validation
+2025-07-27 10:57:14,210 - INFO - user_service.py - Received date of birth and date and joining details proceeding with validation
+2025-07-27 10:57:39,893 - INFO - user_service.py - Received date of birth and date and joining details proceeding with validation
+2025-07-27 10:58:08,933 - INFO - user_service.py - Received date of birth and date and joining details proceeding with validation
+2025-07-28 11:39:28,708 - INFO - user_service.py - Received date of birth and date and joining details proceeding with validation
+2025-07-28 11:39:55,089 - INFO - user_service.py - Received date of birth and date and joining details proceeding with validation
+2025-07-28 11:40:04,628 - INFO - user_service.py - Received date of birth and date and joining details proceeding with validation
+2025-07-28 11:40:32,093 - INFO - user_service.py - Received date of birth and date and joining details proceeding with validation

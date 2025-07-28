@@ -23,7 +23,7 @@ async def validate_email_and_phone(email : str ,phone : str,users_collection):
     })
 
     if existing_user :
-        logger.info(f"Duplicate user found: {existing_user}")
+        logger.info(f"Duplicate user found with {email}  or {phone}")
         raise HTTPException(status_code= 400 ,
             detail="Email or phone number already exists. Try signing in or Use Forgot Password ")
 
@@ -70,3 +70,4 @@ def validate_dates(dob: date, doj: date):
                 status_code=400,
                 detail="Date of Joining cannot be in the future."
             )
+        

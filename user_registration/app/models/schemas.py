@@ -2,7 +2,7 @@ from pydantic import BaseModel ,EmailStr
 from typing import Optional
 from datetime import date
 
-class UserRegister(BaseModel):
+class RegisterUser(BaseModel):
     first_name: str
     last_name: Optional[str] = None
     email: EmailStr
@@ -13,3 +13,6 @@ class UserRegister(BaseModel):
     address: Optional[str] = None
     comment: Optional[str] = None
     
+class LoginUser(BaseModel):
+    email_or_phone : str # Can be email or phone number
+    password : str
