@@ -38,6 +38,7 @@ def validate_password_strength(password: str):
     - At least one special character
     """
     if not re.match(PASSWORD_REGEX, password):
+        logger.info("Password didn't meet requirements and raised an exception ")
         raise HTTPException(
             status_code=422,
             detail=(
@@ -55,17 +56,20 @@ def validate_dates(dob: date, doj: date):
     today = date.today()
     if dob :
         if dob > today:
+            logger.info("Date of Birth is in future dates")
             raise HTTPException(
                 status_code=400,
                 detail="Date of Birth cannot be in future."
             )
     if doj:
         if doj < dob:
+            logger.info("Date of joining is before date of birth ")
             raise HTTPException(
                 status_code=400,
                 detail="Date of Joining cannot be before Date of Birth."
             )
         if doj > today:
+            logger.info("Date of joining is in future dates")
             raise HTTPException(
                 status_code=400,
                 detail="Date of Joining cannot be in the future."
