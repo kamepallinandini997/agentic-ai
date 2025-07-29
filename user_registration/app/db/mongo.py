@@ -5,3 +5,4 @@ MONGO_URI =os.getenv("MONGO_URI")
 client = AsyncIOMotorClient(MONGO_URI)
 db = client["user_registration"]
 users_collection = db["users"]
+blacklist_collection = db["revoked_tokens"]

@@ -8,3 +8,8 @@
 2025-07-28 11:39:55,089 - INFO - user_service.py - Received date of birth and date and joining details proceeding with validation
 2025-07-28 11:40:04,628 - INFO - user_service.py - Received date of birth and date and joining details proceeding with validation
 2025-07-28 11:40:32,093 - INFO - user_service.py - Received date of birth and date and joining details proceeding with validation
+2025-07-28 14:42:59,555 - INFO - user_route.py - calling change password 
+2025-07-28 14:43:30,754 - INFO - user_route.py - calling change password 
+2025-07-28 14:43:47,795 - INFO - user_route.py - calling change password 
+2025-07-28 14:43:48,463 - INFO - exceptions.py - Password didn't meet requirements and raised an exception 
+2025-07-28 14:44:15,564 - INFO - user_route.py - calling change password 

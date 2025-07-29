@@ -16,3 +16,16 @@ class RegisterUser(BaseModel):
 class LoginUser(BaseModel):
     email_or_phone : str # Can be email or phone number
     password : str
+
+class ChangePassword(BaseModel):
+    email: str | None = None
+    phone: str | None = None
+    new_password: str
+
+class PasswordResetRequest(BaseModel):
+    email: Optional[EmailStr] = None
+    phone: Optional[str] = None
+
+class ResetPassword(BaseModel):
+    token: str
+    new_password: str
