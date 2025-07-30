@@ -1,6 +1,7 @@
+from fastapi import HTTPException
 from jose import jwt
 from datetime import datetime, timedelta
-
+from app.db.mongo import blacklist_collection
 # Constants — move these to environment variables in production
 SECRET_KEY = "your_secret_key_here"
 ALGORITHM = "HS256"
@@ -24,3 +25,11 @@ async def verify_token(token: str = Depends(oauth2_scheme)):
     
     # Proceed with decoding
     return decode_token(token)
+def decode_token(token: str) -> dict:
+    try:
+        payload = jwt.decode(token, SECRET_KEY, algorithms=[ALGORITHM])
+        return payload
+    except jwt.ExpiredSignatureError:
+        raise HTTPException(status_code=401, detail="Token expired")
+    except jwt.InvalidTokenError:
+        raise HTTPException(status_code=401, detail="Invalid token")

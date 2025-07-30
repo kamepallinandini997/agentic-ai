@@ -6,7 +6,8 @@ from app.models.schemas import ChangePassword, LoginUser, RegisterUser
 from app.core.exceptions import validate_dates, validate_email_and_phone, validate_password_strength
 from app.core.logging import logger
 from app.utils.password_utils import hash_password, verify_password
-from user_registration.app.utils.jwt_utils import generate_token
+from app.utils.jwt_utils import generate_token,decode_token
+
 
 async def register_user(user_data: RegisterUser):
     user = user_data.dict()
