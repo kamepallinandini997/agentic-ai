@@ -2,7 +2,11 @@ from fastapi import HTTPException
 from jose import jwt
 from datetime import datetime, timedelta
 from app.db.mongo import blacklist_collection
-# Constants — move these to environment variables in production
+from fastapi.security import OAuth2PasswordBearer
+from fastapi import Depends
+
+oauth2_scheme = OAuth2PasswordBearer(tokenUrl="login")
+
 SECRET_KEY = "your_secret_key_here"
 ALGORITHM = "HS256"
 ACCESS_TOKEN_EXPIRE_HOURS = 24  # token valid for 24 hours
