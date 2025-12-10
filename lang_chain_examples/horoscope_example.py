@@ -14,8 +14,7 @@ Autonomous Horoscope Processing Agent using Langchain
 HOROSCOPE_API_URL = "https://ohmanda.com/api/horoscope/"
 SIGNS =[
      "aquarius","aries","taurus", "gemini", "cancer","leo",
-     "virgo",
-     "libra","scorpio","sagittarius","capricorn","pisces"
+     "virgo","libra","scorpio","sagittarius","capricorn","pisces"
 ]
 OUTPUT_FILE ="processed_horoscopes.json"
 processed_results =[]
